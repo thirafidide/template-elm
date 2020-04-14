@@ -1,0 +1,20 @@
+{
+  "name": "template-elm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "dev": "webpack-dev-server --mode development --port 8000 --hot",
+    "errors": "webpack --mode development --display-error-details"
+  },
+  "devDependencies": {
+    "elm-hot-webpack-loader": "^1.1.6",
+    "elm-webpack-loader": "^6.0.1",
+    "file-loader": "^5.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}

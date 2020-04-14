@@ -1,0 +1,23 @@
+# JS
+node_modules
+
+# OS index file
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Elm 
+elm-stuff
+repl-temp-*
+
+# build
+dist
